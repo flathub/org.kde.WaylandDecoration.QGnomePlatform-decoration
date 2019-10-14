@@ -1,10 +1,10 @@
 {
     "id": "org.kde.WaylandDecoration.QGnomePlatform-decoration",
-    "branch": "5.12",
+    "branch": "5.13",
     "runtime": "org.kde.Platform",
     "build-extension": true,
     "sdk": "org.kde.Sdk",
-    "runtime-version": "5.12",
+    "runtime-version": "5.13",
     "appstream-compose": false,
     "separate-locales": false,
     "modules": [
@@ -15,7 +15,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/QGnomePlatform.git",
-                    "branch": "727eeb0487a8d73f2ea4639b3c08eb08a492eced"
+                    "branch": "436f60fab5d7a807d599698bfb44877f846b499b"
                 },
                 {
                     "type": "shell",
