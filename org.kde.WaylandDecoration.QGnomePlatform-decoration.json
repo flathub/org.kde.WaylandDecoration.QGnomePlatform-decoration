@@ -15,9 +15,9 @@
                             "-DUSE_QT6=ON"],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/FedoraQt/adwaita-qt/archive/1.4.1.tar.gz",
-                    "sha256": "834f2caaf031306b63b31ad6fec489482feda35e9aa260f205cbb976cde97b1d"
+                    "type": "git",
+                    "url": "https://github.com/FedoraQt/adwaita-qt.git",
+                    "branch": "1.4.2"
                 },
                 {
                     "type": "shell",
@@ -37,7 +37,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/FedoraQt/QGnomePlatform.git",
-                    "commit": "a35b73c8ba5a413136fa38dc7e135aefd6eff780"
+                    "branch": "0.9.0"
                 },
                 {
                     "type": "patch",
